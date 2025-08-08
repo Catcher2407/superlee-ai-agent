@@ -1,0 +1,17 @@
+{
+  "name": "superlee-ai-agent",
+  "version": "1.0.0",
+  "description": "AI Agent",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "openai": "^5.12.1",
+    "twitter-api-v2": "^1.24.0"
+  }
+}
