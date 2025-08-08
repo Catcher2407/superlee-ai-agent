@@ -1,6 +1,6 @@
 import { client } from './twitter-client.js';
 
-export async function fetchMentions() {
+export async function fetchLatestMentions() {
   const me = await client.v2.me();
   const mentions = await client.v2.userMentionTimeline(me.data.id, {
     exclude: ['retweets', 'replies'],

@@ -1,5 +1,6 @@
 // 📁 src/run-bot.js
-import { fetchTargetTweets, replyToTweet, fetchLatestMentions } from './twitter/twitter-client.js';
+import { fetchTargetTweets, fetchLatestMentions } from './twitter/fetch.js';
+import { replyToTweet } from './twitter/post.js';
 import { generateReply } from './ai/openai.js';
 import fs from 'fs';
 import dotenv from 'dotenv';
